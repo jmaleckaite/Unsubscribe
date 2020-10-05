@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+
+
+div.Footer {
+	font-family: 'Roboto';
+	cursor: pointer;
+}
+
+div.submitWrapper {
+	text-align: center;
+}
+
+div.unsubscribe {
+	color: #061178;
+	text-align: center;
+	font-family: 'Roboto';
+	
+}
+
+div.listOfChannels {
+	color: gray;
+	font-family: 'Roboto';
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+hr.solid {
+	border-top: 1px solid #061178;
+	bottom: 30%;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: block;
+}
+
+.modal_content {
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  left: 32%;
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: block;
+}
+
+div.listOfChannels {
+	padding: 5px;
+	text-align: center;
+}
+
+input[type=submit] {
+	background-color: #061178;
+	border-radius: 4px;
+	padding: 8px 20px;
+	color: white;
+	font-family: 'Roboto';
+	transition-duration: 0.2s;
+	cursor: pointer;
+	margin: 10px 10px 10px 10px;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+#partitioned {
+	padding: 15x;
+	
 }

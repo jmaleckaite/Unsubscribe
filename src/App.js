@@ -13,6 +13,7 @@ class App extends React.Component {
 		<p>Ti sei iscritto a: </p>
 		<div className="Footer">
 		<form>
+		<hr class="solid"></hr>
 		<h3>Se non vuoi ricevere newsletter</h3>
 		<BrowserRouter>
 		  <Link to='/Unsubscribe'>clicca qui</Link>
